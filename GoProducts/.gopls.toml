@@ -1,0 +1,16 @@
+# .gopls.toml
+
+# Ative a ferramenta de análise "Staticcheck".
+staticcheck = true
+
+# Ative todas as funcionalidades detalhadas para a funcionalidade "DeepCompletion".
+deepCompletion = true
+
+# Configure o formato das declarações de importação (por exemplo, para ordenar as importações).
+[Gopls]
+usePlaceholders = true
+codelens.tidy = true
+codelens.gc_details = true
+formatting.gofumpt = true
+formatting.gofmt = false
+formatting.gofumpt = false
